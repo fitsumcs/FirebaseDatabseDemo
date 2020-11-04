@@ -30,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/spinnerGenres"
+        android:onClick="addArtist"
         android:text="Add" />
 
     <TextView
@@ -46,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
-        android:text="Tap on an Artist to add and view tracks"
+        android:text="Tap on an Artist to Update and Delete Artist"
         android:textAlignment="center" />
 
     <ListView
